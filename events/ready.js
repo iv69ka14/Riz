@@ -6,14 +6,14 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            { name: 'Netflix', type: ActivityType.Watching },
-            { name: 'GTA VI', type: ActivityType.Playing },
-            { name: 'on YouTube', type: ActivityType.Streaming },
-            { name: 'Spotify', type: ActivityType.Listening },
+            { name: 'You Server', type: ActivityType.Watching },
+            { name: 'With Your Dreams', type: ActivityType.Playing },
+            { name: 'World', type: ActivityType.Streaming },
+            { name: 'Your Heartbeat', type: ActivityType.Listening },
         ];
 
      
-        const statuses = ['online', 'idle', 'dnd'];
+        const statuses = ['online'];
 
      
         let currentActivityIndex = 0;
